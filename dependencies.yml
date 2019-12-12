@@ -1,0 +1,8 @@
+---
+- name: test-inventory-1
+  type: ansible_inventory
+  src:
+    repo: https://github.com/theque5t/ansible-inventory-test-inventory-1.git
+    version: release1.0.0
+  src_type: git_repo
+  version: 1.0.0

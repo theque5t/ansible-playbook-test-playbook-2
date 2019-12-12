@@ -1,0 +1,22 @@
+---
+- name: test-playbook-2
+  hosts: stg
+  gather_facts: no
+  tasks:
+    - name: this
+      debug:
+        msg: this
+
+    - wait_for:
+        timeout: 5
+
+    - name: that
+      debug:
+        msg: that
+
+    - wait_for:
+        timeout: 5
+
+    - name: the other
+      debug:
+        msg: the other
