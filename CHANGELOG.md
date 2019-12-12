@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+- Added `pause` and `pause_seconds` vars
+- Replaced `wait_for` module with use of `pause` module
+
 ## [1.0.2]
 - Added finale.yml playbook
 

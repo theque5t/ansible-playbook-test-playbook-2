@@ -7,15 +7,17 @@
       debug:
         msg: this
 
-    - wait_for:
-        timeout: 5
+    - pause:
+        seconds: "{{ pause_seconds }}"
+      when: "{{ pause | default(false) }}"
 
     - name: that
       debug:
         msg: that
 
-    - wait_for:
-        timeout: 5
+    - pause:
+        seconds: "{{ pause_seconds }}"
+      when: "{{ pause | default(false) }}"
 
     - name: the other
       debug:
