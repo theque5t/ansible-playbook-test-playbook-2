@@ -9,7 +9,7 @@
 
     - pause:
         seconds: "{{ pause_seconds }}"
-      when: "{{ pause | default(false) }}"
+      when: pause | default(false)
 
     - name: that
       debug:
@@ -17,7 +17,7 @@
 
     - pause:
         seconds: "{{ pause_seconds }}"
-      when: "{{ pause | default(false) }}"
+      when: pause | default(false)
 
     - name: the other
       debug:
