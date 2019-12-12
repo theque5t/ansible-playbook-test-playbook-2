@@ -8,7 +8,18 @@ None.
 
 ## Playbook Variables
 
-None.
+- `pause`
+  - **Required:** True
+  - **Comments:** Used to enable/disable `pause` tasks
+  - **Choices:**
+    - `true`: Enable
+    - `false`: Disable
+  - **Default:** False
+
+- `pause_seconds`
+  - **Required:** True
+  - **Comments:** Used to fill in the `seconds` attribute on `pause` tasks
+  - **Default:** None.
 
 ## Dependencies
 
