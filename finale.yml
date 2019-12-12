@@ -1,0 +1,8 @@
+---
+- name: finale
+  hosts: stg
+  gather_facts: no
+  tasks:
+    - name: one last thing
+      debug:
+        msg: one last thing
