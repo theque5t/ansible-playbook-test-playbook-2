@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.0.3]
 - Added `pause` and `pause_seconds` vars
 - Replaced `wait_for` module with use of `pause` module
 
